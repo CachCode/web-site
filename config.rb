@@ -45,3 +45,8 @@ page '/*.txt', layout: false
 
 activate :livereload
 activate :directory_indexes
+
+activate :blog do |blog|
+  # set options on blog
+  blog.prefix = 'blog/video'
+end
